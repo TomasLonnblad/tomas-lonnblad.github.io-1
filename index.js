@@ -34,7 +34,7 @@ const roughnessMap = texLoader.load(`${path}roughness.png`, (tex) => {
 });
 
 // const geometry = new TeapotGeometry(1);
-const geometry = new THREE.TorusKnotGeometry(1, 0.4, 256, 32);
+const geometry = new THREE.ExtrudeGeometry(1, 0.4, 256, 32);
 // const material = new THREE.MeshStandardMaterial({
 //   map: colorMap,
 //   // normalScale: new THREE.Vector2(6, 6),
